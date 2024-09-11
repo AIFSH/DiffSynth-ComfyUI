@@ -1,0 +1,15 @@
+[project]
+name = "diffsynth-comfyui"
+description = "a custom node for [a/DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio)"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch>=2.0.0", "cupy-cuda12x", "transformers", "controlnet-aux==0.0.7", "imageio", "imageio[ffmpeg]", "safetensors", "einops", "sentencepiece", "protobuf", "modelscope"]
+
+[project.urls]
+Repository = "https://github.com/AIFSH/DiffSynth-ComfyUI"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "DiffSynth-ComfyUI"
+Icon = ""
